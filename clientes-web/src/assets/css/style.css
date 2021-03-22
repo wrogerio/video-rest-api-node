@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #fbfbfb;
+}
+
+th {
+    background: #0a6cff !important;
+    color: white !important;
+    padding: 0.5rem 0.1rem !important;
+}
+
+table img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.w90{
+    width: 90px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.jumbo{
+    padding: 6rem 3rem;
+    text-align: center;
+}
+
+.azul5 {
+    background: #ebf3ff;
+}
+
+.azul3 {
+    background: #c2daff;
+}
+
+.azul1 {
+    background: #70a9ff;
+}
+
+.motivos header {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.moivos article {
+    text-align: justify;
+}
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0d6efd;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    color: white
+}

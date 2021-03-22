@@ -1,0 +1,46 @@
+<%- include('../partials/header')  %>
+
+<div class="container pt-3">
+    <div class="row mb-3">
+        <div class="col">
+            <div class="d-flex justify-content-between">
+                <h2>Atualização de Clientes</h2>
+                <a class='btn btn-success' href="/clientes">Voltar</a>
+            </div>
+        </div>
+    </div>
+
+    <form id="formUpdate">
+        <input type="text" id='_id' name='_id'>
+        <div class="row">
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="nome">nome</label>
+                    <input type="text" name='nome' id='nome' class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group">
+                    <label for="cpf">cpf</label>
+                    <input type="text" name='cpf' id='cpf' class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group">
+                    <label for="idade">idade</label>
+                    <input type="text" name='idade' id='idade' class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group">
+                    <label for="">&nbsp;</label>
+                    <input type="submit" value="Atualizar" class="form-control">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="/scripts/funcoes.js"></script>
+<script src="/scripts/editar.js"></script>
+<%- include('../partials/footer')  %>
